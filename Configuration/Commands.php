@@ -102,10 +102,6 @@ return [
             \TYPO3\CMS\Core\Command\ExtensionListCommand::class,
         ],
     ],
-    'extension:setup' => [
-        'vendor' => 'typo3_console',
-        'class' => \Helhum\Typo3Console\Command\Extension\ExtensionSetupCommand::class,
-    ],
     'extension:setupactive' => [
         'vendor' => 'typo3_console',
         'class' => \Helhum\Typo3Console\Command\Extension\ExtensionSetupActiveCommand::class,
