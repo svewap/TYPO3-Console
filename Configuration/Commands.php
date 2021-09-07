@@ -28,11 +28,6 @@ return [
         'vendor' => 'typo3_console',
         'class' => \Helhum\Typo3Console\Command\Backend\UnlockBackendForEditorsCommand::class,
     ],
-    'cache:flush' => [
-        'vendor' => 'typo3_console',
-        'class' => \Helhum\Typo3Console\Command\Cache\CacheFlushCommand::class,
-        'runLevel' => \Helhum\Typo3Console\Core\Booting\RunLevel::LEVEL_COMPILE,
-    ],
     'cache:flushgroups' => [
         'vendor' => 'typo3_console',
         'class' => \Helhum\Typo3Console\Command\Cache\CacheFlushGroupsCommand::class,
